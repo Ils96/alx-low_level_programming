@@ -6,7 +6,7 @@
  *
  *Description: this is aprogram that print
  *		a text with using write function
- * Return: always 1 (success)
+ * Return: always 1 (failure value)
 */
 
 int main(void)
