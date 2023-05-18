@@ -6,10 +6,12 @@
  *
  * Return: always 1 (success)
 */
-int main (void)
+
+int main(void)
 {
-	int f;
-	f =write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", 59);
+	char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, msg, sizeof(msg));
 	return (1);
 }
 
