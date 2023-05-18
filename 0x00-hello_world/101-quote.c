@@ -4,6 +4,8 @@
 /**
  * main - Entry point
  *
+ *Description: this is aprogram that print
+ *		a text with using write function
  * Return: always 1 (success)
 */
 
