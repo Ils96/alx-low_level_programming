@@ -3,7 +3,7 @@
  *main - Entry point
  *
  *Description: this program print alphabet in lower
- *	case exept q and e
+ *	case exept q and e.
  *
  *Return: always 0 (success
 */
