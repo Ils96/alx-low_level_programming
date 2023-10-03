@@ -9,12 +9,13 @@
  * Return: nothing
  *
  */
-void free_grid(int **grid, int height)
+void free_grid(int **grid, int heigh)
 {
-int i;
-for (i = 0; i < height; i++)
-{
-free(grid[i]);
-}
-free(grid);
+	int i;
+
+	for (i = 0; i < height; i++)
+	{
+		free(grid[i]);
+	}
+	free(grid);
 }
